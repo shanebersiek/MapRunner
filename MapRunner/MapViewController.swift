@@ -27,6 +27,8 @@ class MapViewController: UIViewController {
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var paceLabel: UILabel!
     @IBOutlet weak var mapView: MKMapView!
+    @IBOutlet weak var placeHolder: UIView!
+    
     
     //MARK: Life cycles
     override func viewDidLoad() {
@@ -117,7 +119,7 @@ class MapViewController: UIViewController {
       locationManager.stopUpdatingLocation()
     }
     private func startRun() {
-     
+      placeHolder.isHidden = true
       dataStackView.isHidden = false
       startButton.isHidden = true
       stopButton.isHidden = false

@@ -11,7 +11,7 @@ import CoreData
 class CoreDataStack {
   
   static let persistentContainer: NSPersistentContainer = {
-    let container = NSPersistentContainer(name: "MoonRunner")
+    let container = NSPersistentContainer(name: "MapRunner")
     container.loadPersistentStores { (_, error) in
       if let error = error as NSError? {
         fatalError("Unresolved error \(error), \(error.userInfo)")
