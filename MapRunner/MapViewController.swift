@@ -33,6 +33,7 @@ class MapViewController: UIViewController {
     //MARK: Life cycles
     override func viewDidLoad() {
         super.viewDidLoad()
+        customizeButtons()
         mapView.delegate = self
         checkLocationServices()
     }
@@ -110,9 +111,14 @@ class MapViewController: UIViewController {
 //      run = newRun
 //    }
     
+    func customizeButtons(){
+        startButton.roundedButton()
+        stopButton.roundedButton()
+    }
+    
     private func stopRun() {
       dataStackView.isHidden = true
-      startButton.isHidden = false
+      startButton.isHidden = true
       stopButton.isHidden = true
       mapView.isHidden = true
       

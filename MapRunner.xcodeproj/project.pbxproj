@@ -20,6 +20,7 @@
 		B9C07CBA26C9BDDA008C95D9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C07CB926C9BDDA008C95D9 /* LocationManager.swift */; };
 		B9C07CBD26C9BE1D008C95D9 /* MulticolorPolyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C07CBC26C9BE1D008C95D9 /* MulticolorPolyline.swift */; };
 		B9C07CC926C9CBF3008C95D9 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C07CC826C9CBF3008C95D9 /* CoreDataStack.swift */; };
+		B9C07CD126C9ED7F008C95D9 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C07CD026C9ED7F008C95D9 /* HelperFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		B9C07CB926C9BDDA008C95D9 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		B9C07CBC26C9BE1D008C95D9 /* MulticolorPolyline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticolorPolyline.swift; sourceTree = "<group>"; };
 		B9C07CC826C9CBF3008C95D9 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		B9C07CD026C9ED7F008C95D9 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +78,10 @@
 				B9C07CA426C9B058008C95D9 /* MapViewController.swift */,
 				B9C07C9726C9B046008C95D9 /* Assets.xcassets */,
 				B9C07CC026C9BFE8008C95D9 /* Supporting files */,
+				B9C07CD026C9ED7F008C95D9 /* HelperFunctions.swift */,
 				B9C07C9926C9B046008C95D9 /* LaunchScreen.storyboard */,
 				B9C07C9C26C9B046008C95D9 /* Info.plist */,
 				B9C07C9426C9B043008C95D9 /* MapRunner.xcdatamodeld */,
-				B9C07CC826C9CBF3008C95D9 /* CoreDataStack.swift */,
 			);
 			path = MapRunner;
 			sourceTree = "<group>";
@@ -96,6 +98,7 @@
 		B9C07CC026C9BFE8008C95D9 /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
+				B9C07CC826C9CBF3008C95D9 /* CoreDataStack.swift */,
 				B9C07CB326C9BD77008C95D9 /* UnitExtensions.swift */,
 				B9C07CB626C9BDA7008C95D9 /* FormatDisplay.swift */,
 				B9C07CB926C9BDDA008C95D9 /* LocationManager.swift */,
@@ -183,6 +186,7 @@
 				B9C07CA526C9B058008C95D9 /* MapViewController.swift in Sources */,
 				B9C07CB726C9BDA7008C95D9 /* FormatDisplay.swift in Sources */,
 				B9C07CAE26C9BBFF008C95D9 /* HomeViewController.swift in Sources */,
+				B9C07CD126C9ED7F008C95D9 /* HelperFunctions.swift in Sources */,
 				B9C07CB426C9BD77008C95D9 /* UnitExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
