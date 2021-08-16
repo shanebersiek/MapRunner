@@ -21,6 +21,8 @@
 		B9C07CBD26C9BE1D008C95D9 /* MulticolorPolyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C07CBC26C9BE1D008C95D9 /* MulticolorPolyline.swift */; };
 		B9C07CC926C9CBF3008C95D9 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C07CC826C9CBF3008C95D9 /* CoreDataStack.swift */; };
 		B9C07CD126C9ED7F008C95D9 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C07CD026C9ED7F008C95D9 /* HelperFunctions.swift */; };
+		B9C07CF126CAF431008C95D9 /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C07CF026CAF431008C95D9 /* Run.swift */; };
+		B9C07CF526CAF54F008C95D9 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C07CF426CAF54F008C95D9 /* Locations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		B9C07CBC26C9BE1D008C95D9 /* MulticolorPolyline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticolorPolyline.swift; sourceTree = "<group>"; };
 		B9C07CC826C9CBF3008C95D9 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		B9C07CD026C9ED7F008C95D9 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		B9C07CF026CAF431008C95D9 /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		B9C07CF426CAF54F008C95D9 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 				B9C07C9726C9B046008C95D9 /* Assets.xcassets */,
 				B9C07CC026C9BFE8008C95D9 /* Supporting files */,
 				B9C07CD026C9ED7F008C95D9 /* HelperFunctions.swift */,
+				B9C07CFA26CAF6E3008C95D9 /* Models */,
 				B9C07C9926C9B046008C95D9 /* LaunchScreen.storyboard */,
 				B9C07C9C26C9B046008C95D9 /* Info.plist */,
 				B9C07C9426C9B043008C95D9 /* MapRunner.xcdatamodeld */,
@@ -105,6 +110,15 @@
 				B9C07CBC26C9BE1D008C95D9 /* MulticolorPolyline.swift */,
 			);
 			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		B9C07CFA26CAF6E3008C95D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B9C07CF026CAF431008C95D9 /* Run.swift */,
+				B9C07CF426CAF54F008C95D9 /* Locations.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,10 +192,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9C07C8C26C9B043008C95D9 /* AppDelegate.swift in Sources */,
+				B9C07CF126CAF431008C95D9 /* Run.swift in Sources */,
 				B9C07CBA26C9BDDA008C95D9 /* LocationManager.swift in Sources */,
 				B9C07C9626C9B043008C95D9 /* MapRunner.xcdatamodeld in Sources */,
 				B9C07CBD26C9BE1D008C95D9 /* MulticolorPolyline.swift in Sources */,
 				B9C07C8E26C9B043008C95D9 /* SceneDelegate.swift in Sources */,
+				B9C07CF526CAF54F008C95D9 /* Locations.swift in Sources */,
 				B9C07CC926C9CBF3008C95D9 /* CoreDataStack.swift in Sources */,
 				B9C07CA526C9B058008C95D9 /* MapViewController.swift in Sources */,
 				B9C07CB726C9BDA7008C95D9 /* FormatDisplay.swift in Sources */,

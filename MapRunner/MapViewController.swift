@@ -92,25 +92,6 @@ class MapViewController: UIViewController {
       updateDisplay()
     }
     
-//    private func saveRun() {
-//      let newRun = Run(context: CoreDataStack.context)
-//      newRun.distance = distance.value
-//      newRun.duration = Int16(seconds)
-//      newRun.timeStamp = Date()
-//
-//      for location in locationList {
-//        let locationObject = Location(context: CoreDataStack.context)
-//        locationObject.timestamp = location.timestamp
-//        locationObject.latitude = location.coordinate.latitude
-//        locationObject.longitude = location.coordinate.longitude
-//        newRun.addToLocations(locationObject)
-//      }
-//
-//      CoreDataStack.saveContext()
-//
-//      run = newRun
-//    }
-    
     func customizeButtons(){
         startButton.roundedButton()
         stopButton.roundedButton()
@@ -152,10 +133,12 @@ class MapViewController: UIViewController {
                                                 message: "Do you wish to end your run?",
                                                 preferredStyle: .actionSheet)
         alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel))
-//        alertController.addAction(UIAlertAction(title: "Save", style: .default) { _ in
+//        alertController.addAction(UIAlertAction(title: "View Details", style: .default) { _ in
 //          self.stopRun()
-//          self.saveRun()
-//          self.performSegue(withIdentifier: "controller name", sender: nil)
+//            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//            let vc = storyboard.instantiateViewController("LoginViewController") as UIViewController
+//            self.navigationController?.pushViewController(vc, animated: true)
+        
 //        })
         alertController.addAction(UIAlertAction(title: "Discard", style: .destructive) { _ in
           self.stopRun()
