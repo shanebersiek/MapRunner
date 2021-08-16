@@ -133,13 +133,6 @@ class MapViewController: UIViewController {
                                                 message: "Do you wish to end your run?",
                                                 preferredStyle: .actionSheet)
         alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel))
-//        alertController.addAction(UIAlertAction(title: "View Details", style: .default) { _ in
-//          self.stopRun()
-//            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//            let vc = storyboard.instantiateViewController("LoginViewController") as UIViewController
-//            self.navigationController?.pushViewController(vc, animated: true)
-        
-//        })
         alertController.addAction(UIAlertAction(title: "Discard", style: .destructive) { _ in
           self.stopRun()
           _ = self.navigationController?.popToRootViewController(animated: true)
